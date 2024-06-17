@@ -1,0 +1,248 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom left, #093B05, #19A10E);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.custom-navbar {
+    background-color: #0A3C06;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.offcanvas-custom{
+background-color: #0A3C06;
+}
+
+.text-bg-dark.custom-bg {
+    background-color: #0A3C06 !important;
+    color: #ffffff !important;
+}
+
+.navbar-toggler{
+border: none;
+font-size: 1.25rem;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+min-width: 44px;
+min-height: 44px;
+}
+
+.navbar-toggler:focus, .btn-close:focus{
+box-shadow: none;
+outline: none;
+}
+
+.btn-close {
+min-width: 44px;
+min-height: 44px;
+}
+
+.navbar-brand{
+color: #fff;
+font-weight: 500;
+font-size: 24px;
+transition: 0.3s color;
+margin-left: 40px;
+}
+
+.navbar-brand:hover{
+color: #E3FDCD;
+}
+
+.nav-link{
+color: #fff;
+font-weight: 500;
+position: relative;
+min-height: 44px;
+min-width: 44px;
+}
+
+.nav-link:hover, .nav-link.active{
+color: #E3FDCD;
+}
+
+
+/* main */
+main {
+    flex: 1;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 50px 80px;
+}
+
+.dashboard-content {
+    padding: 3rem 5rem;
+    color: #093B05;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    border-radius: 13px;
+    background-color: #E3FDCD;
+}
+
+.addnew-title, .editresto-title {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.dataresto-title {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-top: 55px;
+}
+
+.addnew-title, .editresto-title {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, textarea, select {
+    display: flex;
+    width: 100%;
+    padding: 25px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    border: 1px solid #19A10E;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submit-btn {
+    width: 20%;
+    background-color: #19A10E;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+    display: block;
+    margin: 20px auto;
+    margin-top: 40px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+#submit-btn:hover {
+    background-color: #158A0B;
+
+}
+
+
+/* edit resto */
+#resto-data .resto-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resto-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.resto-info {
+    flex: 3;
+    padding: 0 30px;
+}
+
+.resto-info-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.resto-info-description{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.resto-info-detail {
+    font-size: 15px;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.edit-btn, .delete-btn {
+    width: 100%;
+    background-color: #19A10E;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 7px;
+    display: block;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.edit-btn:hover {
+    background-color: #e5bb00;
+}
+
+.delete-btn:hover {
+    background-color: #ac140c;
+}
+
+
+.foot {
+    background-color: #0A3C06;
+    margin-top: auto; 
+    border-top: 1px solid #e7e7e7;
+    padding: 30px 15px 30px 15px;
+    font-display: optional;
+}
+
+.foot p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-display: optional;
+}
+
+.swal2-input {
+    width: 80%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.swal2-confirm {
+    background-color: #19A10E !important;
+    color: white !important; 
+}

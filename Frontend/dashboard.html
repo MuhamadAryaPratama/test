@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div id="dashboard">
+      <!-- Tempat untuk menampilkan data dari server -->
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", async function () {
+        try {
+          const response = await fetch("/dashboard");
+          if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          const data = await response.json();
+          console.log(data); // Untuk memastikan data yang diterima
+
+          // Menampilkan data ke dalam elemen di halaman
+          const dashboardElement = document.getElementById("dashboard");
+          dashboardElement.innerHTML = `
+            <h1>Welcome to Dashboard</h1>
+            <ul>
+              ${data
+                .map((user) => `<li>${user.name} - ${user.email}</li>`)
+                .join("")}
+            </ul>
+          `;
+        } catch (error) {
+          console.error("Error fetching data:", error);
+          // Menampilkan pesan error ke pengguna jika terjadi masalah
+          const dashboardElement = document.getElementById("dashboard");
+          dashboardElement.innerHTML = `
+            <p>Failed to load data from the server.</p>
+          `;
+        }
+      });
+    </script>
+  </body>
+</html>
