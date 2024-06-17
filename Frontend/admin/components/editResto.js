@@ -64,7 +64,9 @@ class EditResto extends HTMLElement {
     }
 
     try {
-      const response = await fetch(`http://localhost:4000/${provinsi}`);
+      const response = await fetch(
+        `http://localhost:4000/.netlify/functions/server/${provinsi}`
+      );
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
@@ -151,7 +153,7 @@ class EditResto extends HTMLElement {
       if (newName && newDescription && newGoogleMapsLink && newRating) {
         try {
           const response = await fetch(
-            `http://localhost:4000/${provinsi}/${id}`,
+            `http://localhost:4000/.netlify/functions/server/${provinsi}/${id}`,
             {
               method: "PUT",
               headers: {

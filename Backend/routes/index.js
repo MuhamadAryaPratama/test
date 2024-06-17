@@ -217,180 +217,180 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Pulau Sumatera
-router.post("/aceh", createAcehMenu);
-router.get("/aceh", getAcehMenu);
-router.delete("/aceh/:id", deleteAcehMenu);
-router.put("/aceh/:id", editAcehMenu);
+router.post("/.netlify/functions/server/aceh", createAcehMenu);
+router.get("/.netlify/functions/server/aceh", getAcehMenu);
+router.delete("/.netlify/functions/server/aceh/:id", deleteAcehMenu);
+router.put("/.netlify/functions/server/aceh/:id", editAcehMenu);
 
-router.post("/sumaterautara", createSumateraUtaraMenu);
-router.get("/sumaterautara", getSumateraUtaraMenu);
-router.delete("/sumaterautara/:id", deleteSumateraUtaraMenu);
-router.put("/sumaterautara/:id", editSumateraUtaraMenu);
+router.post("/.netlify/functions/server/sumaterautara", createSumateraUtaraMenu);
+router.get("/.netlify/functions/server/sumaterautara", getSumateraUtaraMenu);
+router.delete("/.netlify/functions/server/sumaterautara/:id", deleteSumateraUtaraMenu);
+router.put("/.netlify/functions/server/sumaterautara/:id", editSumateraUtaraMenu);
 
-router.post("/sumateraselatan", createSumateraSelatanMenu);
-router.get("/sumateraselatan", getSumateraSelatanMenu);
-router.delete("/sumateraselatan/:id", deleteSumateraSelatanMenu);
-router.put("/sumateraselatan/:id", editSumateraSelatanMenu);
+router.post("/.netlify/functions/server/sumateraselatan", createSumateraSelatanMenu);
+router.get("/.netlify/functions/server/sumateraselatan", getSumateraSelatanMenu);
+router.delete("/.netlify/functions/server/sumateraselatan/:id", deleteSumateraSelatanMenu);
+router.put("/.netlify/functions/server/sumateraselatan/:id", editSumateraSelatanMenu);
 
-router.post("/sumaterabarat", createSumateraBaratMenu);
-router.get("/sumaterabarat", getSumateraBaratMenu);
-router.delete("/sumaterabarat/:id", deleteSumateraBaratMenu);
-router.put("/sumaterabarat/:id", editSumateraBaratMenu);
+router.post("/.netlify/functions/server/sumaterabarat", createSumateraBaratMenu);
+router.get("/.netlify/functions/server/sumaterabarat", getSumateraBaratMenu);
+router.delete("/.netlify/functions/server/sumaterabarat/:id", deleteSumateraBaratMenu);
+router.put("/.netlify/functions/server/sumaterabarat/:id", editSumateraBaratMenu);
 
-router.post("/bengkulu", createBengkuluMenu);
-router.get("/bengkulu", getBengkuluMenu);
-router.delete("/bengkulu/:id", deleteBengkuluMenu);
-router.put("/bengkulu/:id", editBengkuluMenu);
+router.post("/.netlify/functions/server/bengkulu", createBengkuluMenu);
+router.get("/.netlify/functions/server/bengkulu", getBengkuluMenu);
+router.delete("/.netlify/functions/server/bengkulu/:id", deleteBengkuluMenu);
+router.put("/.netlify/functions/server/bengkulu/:id", editBengkuluMenu);
 
-router.post("/riau", createRiauMenu);
-router.get("/riau", getRiauMenu);
-router.delete("/riau/:id", deleteRiauMenu);
-router.put("/riau/:id", editRiauMenu);
+router.post("/.netlify/functions/server/riau", createRiauMenu);
+router.get("/.netlify/functions/server/riau", getRiauMenu);
+router.delete("/.netlify/functions/server/riau/:id", deleteRiauMenu);
+router.put("/.netlify/functions/server/riau/:id", editRiauMenu);
 
-router.post("/kepulauanriau", createKepulauanRiauMenu);
-router.get("/kepulauanriau", getKepulauanRiauMenu);
-router.delete("/kepulauanriau/:id", deleteKepulauanRiauMenu);
-router.put("/kepulauanriau/:id", editKepulauanRiauMenu);
+router.post("/.netlify/functions/server/kepulauanriau", createKepulauanRiauMenu);
+router.get("/.netlify/functions/server/kepulauanriau", getKepulauanRiauMenu);
+router.delete("/.netlify/functions/server/kepulauanriau/:id", deleteKepulauanRiauMenu);
+router.put("/.netlify/functions/server/kepulauanriau/:id", editKepulauanRiauMenu);
 
-router.post("/jambi", createJambiMenu);
-router.get("/jambi", getJambiMenu);
-router.delete("/jambi/:id", deleteJambiMenu);
-router.put("/jambi/:id", editJambiMenu);
+router.post("/.netlify/functions/server/jambi", createJambiMenu);
+router.get("/.netlify/functions/server/jambi", getJambiMenu);
+router.delete("/.netlify/functions/server/jambi/:id", deleteJambiMenu);
+router.put("/.netlify/functions/server/jambi/:id", editJambiMenu);
 
-router.post("/lampung", createLampungMenu);
-router.get("/lampung", getLampungMenu);
-router.delete("/lampung/:id", deleteLampungMenu);
-router.put("/lampung/:id", editLampungMenu);
+router.post("/.netlify/functions/server/lampung", createLampungMenu);
+router.get("/.netlify/functions/server/lampung", getLampungMenu);
+router.delete("/.netlify/functions/server/lampung/:id", deleteLampungMenu);
+router.put("/.netlify/functions/server/lampung/:id", editLampungMenu);
 
-router.post("/bangkabelitung", createBangkaBelitungMenu);
-router.get("/bangkabelitung", getBangkaBelitungMenu);
-router.delete("/bangkabelitung/:id", deleteBangkaBelitungMenu);
-router.put("/bangkabelitung/:id", editBangkaBelitungMenu);
+router.post("/.netlify/functions/server/bangkabelitung", createBangkaBelitungMenu);
+router.get("/.netlify/functions/server/bangkabelitung", getBangkaBelitungMenu);
+router.delete("/.netlify/functions/server/bangkabelitung/:id", deleteBangkaBelitungMenu);
+router.put("/.netlify/functions/server/bangkabelitung/:id", editBangkaBelitungMenu);
 
 // Pulau Jawa
-router.post("/banten", createBantenMenu);
-router.get("/banten", getBantenMenu);
-router.delete("/banten/:id", deleteBantenMenu);
-router.put("/banten/:id", editBantenMenu);
+router.post("/.netlify/functions/server/banten", createBantenMenu);
+router.get("/.netlify/functions/server/banten", getBantenMenu);
+router.delete("/.netlify/functions/server/banten/:id", deleteBantenMenu);
+router.put("/.netlify/functions/server/banten/:id", editBantenMenu);
 
-router.post("/jakarta", createJakartaMenu);
-router.get("/jakarta", getJakartaMenu);
-router.delete("/jakarta/:id", deleteJakartaMenu);
-router.put("/jakarta/:id", editJakartaMenu);
+router.post("/.netlify/functions/server/jakarta", createJakartaMenu);
+router.get("/.netlify/functions/server/jakarta", getJakartaMenu);
+router.delete("/.netlify/functions/server/jakarta/:id", deleteJakartaMenu);
+router.put("/.netlify/functions/server/jakarta/:id", editJakartaMenu);
 
-router.post("/jawabarat", createJawaBaratMenu);
-router.get("/jawabarat", getJawaBaratMenu);
-router.delete("/jawabarat/:id", deleteJawaBaratMenu);
-router.put("/jawabarat/:id", editJawaBaratMenu);
+router.post("/.netlify/functions/server/jawabarat", createJawaBaratMenu);
+router.get("/.netlify/functions/server/jawabarat", getJawaBaratMenu);
+router.delete("/.netlify/functions/server/jawabarat/:id", deleteJawaBaratMenu);
+router.put("/.netlify/functions/server/jawabarat/:id", editJawaBaratMenu);
 
-router.post("/jawatengah", createJawaTengahMenu);
-router.get("/jawatengah", getJawaTengahMenu);
-router.delete("/jawatengah/:id", deleteJawaTengahMenu);
-router.put("/jawatengah/:id", editJawaTengahMenu);
+router.post("/.netlify/functions/server/jawatengah", createJawaTengahMenu);
+router.get("/.netlify/functions/server/jawatengah", getJawaTengahMenu);
+router.delete("/.netlify/functions/server/jawatengah/:id", deleteJawaTengahMenu);
+router.put("/.netlify/functions/server/jawatengah/:id", editJawaTengahMenu);
 
-router.post("/jawatimur", createJawaTimurMenu);
-router.get("/jawatimur", getJawaTimurMenu);
-router.delete("/jawatimur/:id", deleteJawaTimurMenu);
-router.put("/jawatimur/:id", editJawaTimurMenu);
+router.post("/.netlify/functions/server/jawatimur", createJawaTimurMenu);
+router.get("/.netlify/functions/server/jawatimur", getJawaTimurMenu);
+router.delete("/.netlify/functions/server/jawatimur/:id", deleteJawaTimurMenu);
+router.put("/.netlify/functions/server/jawatimur/:id", editJawaTimurMenu);
 
-router.post("/yogyakarta", createYogyakartaMenu);
-router.get("/yogyakarta", getYogyakartaMenu);
-router.delete("/yogyakarta/:id", deleteYogyakartaMenu);
-router.put("/yogyakarta/:id", editYogyakartaMenu);
+router.post("/.netlify/functions/server/yogyakarta", createYogyakartaMenu);
+router.get("/.netlify/functions/server/yogyakarta", getYogyakartaMenu);
+router.delete("/.netlify/functions/server/yogyakarta/:id", deleteYogyakartaMenu);
+router.put("/.netlify/functions/server/yogyakarta/:id", editYogyakartaMenu);
 
 // Pulau Sulawesi
-router.post("/sulawesiutara", createSulawesiUtaraMenu);
-router.get("/sulawesiutara", getSulawesiUtaraMenu);
-router.delete("/sulawesiutara/:id", deleteSulawesiUtaraMenu);
-router.put("/sulawesiutara/:id", editSulawesiUtaraMenu);
+router.post("/.netlify/functions/server/sulawesiutara", createSulawesiUtaraMenu);
+router.get("/.netlify/functions/server/sulawesiutara", getSulawesiUtaraMenu);
+router.delete("/.netlify/functions/server/sulawesiutara/:id", deleteSulawesiUtaraMenu);
+router.put("/.netlify/functions/server/sulawesiutara/:id", editSulawesiUtaraMenu);
 
-router.post("/sulawesiselatan", createSulawesiSelatanMenu);
-router.get("/sulawesiselatan", getSulawesiSelatanMenu);
-router.delete("/sulawesiselatan/:id", deleteSulawesiSelatanMenu);
-router.put("/sulawesiselatan/:id", editSulawesiSelatanMenu);
+router.post("/.netlify/functions/server/sulawesiselatan", createSulawesiSelatanMenu);
+router.get("/.netlify/functions/server/sulawesiselatan", getSulawesiSelatanMenu);
+router.delete("/.netlify/functions/server/sulawesiselatan/:id", deleteSulawesiSelatanMenu);
+router.put("/.netlify/functions/server/sulawesiselatan/:id", editSulawesiSelatanMenu);
 
-router.post("/sulawesibarat", createSulawesiBaratMenu);
-router.get("/sulawesibarat", getSulawesiBaratMenu);
-router.delete("/sulawesibarat/:id", deleteSulawesiBaratMenu);
-router.put("/sulawesibarat/:id", editSulawesiBaratMenu);
+router.post("/.netlify/functions/server/sulawesibarat", createSulawesiBaratMenu);
+router.get("/.netlify/functions/server/sulawesibarat", getSulawesiBaratMenu);
+router.delete("/.netlify/functions/server/sulawesibarat/:id", deleteSulawesiBaratMenu);
+router.put("/.netlify/functions/server/sulawesibarat/:id", editSulawesiBaratMenu);
 
-router.post("/sulawesitengah", createSulawesiTengahMenu);
-router.get("/sulawesitengah", getSulawesiTengahMenu);
-router.delete("/sulawesitengah/:id", deleteSulawesiTengahMenu);
-router.put("/sulawesitengah/:id", editSulawesiTengahMenu);
+router.post("/.netlify/functions/server/sulawesitengah", createSulawesiTengahMenu);
+router.get("/.netlify/functions/server/sulawesitengah", getSulawesiTengahMenu);
+router.delete("/.netlify/functions/server/sulawesitengah/:id", deleteSulawesiTengahMenu);
+router.put("/.netlify/functions/server/sulawesitengah/:id", editSulawesiTengahMenu);
 
-router.post("/sulawesitenggara", createSulawesiTenggaraMenu);
-router.get("/sulawesitenggara", getSulawesiTenggaraMenu);
-router.delete("/sulawesitenggara/:id", deleteSulawesiTenggaraMenu);
-router.put("/sulawesitenggara/:id", editSulawesiTenggaraMenu);
+router.post("/.netlify/functions/server/sulawesitenggara", createSulawesiTenggaraMenu);
+router.get("/.netlify/functions/server/sulawesitenggara", getSulawesiTenggaraMenu);
+router.delete("/.netlify/functions/server/sulawesitenggara/:id", deleteSulawesiTenggaraMenu);
+router.put("/.netlify/functions/server/sulawesitenggara/:id", editSulawesiTenggaraMenu);
 
-router.post("/gorontalo", createGorontaloMenu);
-router.get("/gorontalo", getGorontaloMenu);
-router.delete("/gorontalo/:id", deleteGorontaloMenu);
-router.put("/gorontalo/:id", editGorontaloMenu);
+router.post("/.netlify/functions/server/gorontalo", createGorontaloMenu);
+router.get("/.netlify/functions/server/gorontalo", getGorontaloMenu);
+router.delete("/.netlify/functions/server/gorontalo/:id", deleteGorontaloMenu);
+router.put("/.netlify/functions/server/gorontalo/:id", editGorontaloMenu);
 
 // Pulau Bali
-router.post("/bali", createBaliMenu);
-router.get("/bali", getBaliMenu);
-router.delete("/bali/:id", deleteBaliMenu);
-router.put("/bali/:id", editBaliMenu);
+router.post("/.netlify/functions/server/bali", createBaliMenu);
+router.get("/.netlify/functions/server/bali", getBaliMenu);
+router.delete("/.netlify/functions/server/bali/:id", deleteBaliMenu);
+router.put("/.netlify/functions/server/bali/:id", editBaliMenu);
 
-router.post("/maluku", createMalukuMenu);
-router.get("/maluku", getMalukuMenu);
-router.delete("/maluku/:id", deleteMalukuMenu);
-router.put("/maluku/:id", editMalukuMenu);
+router.post("/.netlify/functions/server/maluku", createMalukuMenu);
+router.get("/.netlify/functions/server/maluku", getMalukuMenu);
+router.delete("/.netlify/functions/server/maluku/:id", deleteMalukuMenu);
+router.put("/.netlify/functions/server/maluku/:id", editMalukuMenu);
 
-router.post("/malukuutara", createMalukuUtaraMenu);
-router.get("/malukuutara", getMalukuUtaraMenu);
-router.delete("/malukuutara/:id", deleteMalukuUtaraMenu);
-router.put("/malukuutara/:id", editMalukuUtaraMenu);
+router.post("/.netlify/functions/server/malukuutara", createMalukuUtaraMenu);
+router.get("/.netlify/functions/server/malukuutara", getMalukuUtaraMenu);
+router.delete("/.netlify/functions/server/malukuutara/:id", deleteMalukuUtaraMenu);
+router.put("/.netlify/functions/server/malukuutara/:id", editMalukuUtaraMenu);
 
 // Pulau Kalimantan
-router.post("/kalimantanbarat", createKalimantanBaratMenu);
-router.get("/kalimantanbarat", getKalimantanBaratMenu);
-router.delete("/kalimantanbarat/:id", deleteKalimantanBaratMenu);
-router.put("/kalimantanbarat/:id", editKalimantanBaratMenu);
+router.post("/.netlify/functions/server/kalimantanbarat", createKalimantanBaratMenu);
+router.get("/.netlify/functions/server/kalimantanbarat", getKalimantanBaratMenu);
+router.delete("/.netlify/functions/server/kalimantanbarat/:id", deleteKalimantanBaratMenu);
+router.put("/.netlify/functions/server/kalimantanbarat/:id", editKalimantanBaratMenu);
 
-router.post("/kalimantanutara", createKalimantanUtaraMenu);
-router.get("/kalimantanutara", getKalimantanUtaraMenu);
-router.delete("/kalimantanutara/:id", deleteKalimantanUtaraMenu);
-router.put("/kalimantanutara/:id", editKalimantanUtaraMenu);
+router.post("/.netlify/functions/server/kalimantanutara", createKalimantanUtaraMenu);
+router.get("/.netlify/functions/server/kalimantanutara", getKalimantanUtaraMenu);
+router.delete("/.netlify/functions/server/kalimantanutara/:id", deleteKalimantanUtaraMenu);
+router.put("/.netlify/functions/server/kalimantanutara/:id", editKalimantanUtaraMenu);
 
-router.post("/kalimantantimur", createKalimantanTimurMenu);
-router.get("/kalimantantimur", getKalimantanTimurMenu);
-router.delete("/kalimantantimur/:id", deleteKalimantanTimurMenu);
-router.put("/kalimantantimur/:id", editKalimantanTimurMenu);
+router.post("/.netlify/functions/server/kalimantantimur", createKalimantanTimurMenu);
+router.get("/.netlify/functions/server/kalimantantimur", getKalimantanTimurMenu);
+router.delete("/.netlify/functions/server/kalimantantimur/:id", deleteKalimantanTimurMenu);
+router.put("/.netlify/functions/server/kalimantantimur/:id", editKalimantanTimurMenu);
 
-router.post("/kalimantanselatan", createKalimantanSelatanMenu);
-router.get("/kalimantanselatan", getKalimantanSelatanMenu);
-router.delete("/kalimantanselatan/:id", deleteKalimantanSelatanMenu);
-router.put("/kalimantanselatan/:id", editKalimantanSelatanMenu);
+router.post("/.netlify/functions/server/kalimantanselatan", createKalimantanSelatanMenu);
+router.get("/.netlify/functions/server/kalimantanselatan", getKalimantanSelatanMenu);
+router.delete("/.netlify/functions/server/kalimantanselatan/:id", deleteKalimantanSelatanMenu);
+router.put("/.netlify/functions/server/kalimantanselatan/:id", editKalimantanSelatanMenu);
 
-router.post("/kalimantantengah", createKalimantanTengahMenu);
-router.get("/kalimantantengah", getKalimantanTengahMenu);
-router.delete("/kalimantantengah/:id", deleteKalimantanTengahMenu);
-router.put("/kalimantantengah/:id", editKalimantanTengahMenu);
+router.post("/.netlify/functions/server/kalimantantengah", createKalimantanTengahMenu);
+router.get("/.netlify/functions/server/kalimantantengah", getKalimantanTengahMenu);
+router.delete("/.netlify/functions/server/kalimantantengah/:id", deleteKalimantanTengahMenu);
+router.put("/.netlify/functions/server/kalimantantengah/:id", editKalimantanTengahMenu);
 
-router.post("/nusatenggaratimur", createNusaTenggaraTimurMenu);
-router.get("/nusatenggaratimur", getNusaTenggaraTimurMenu);
-router.delete("/nusatenggaratimur/:id", deleteNusaTenggaraTimurMenu);
-router.put("/nusatenggaratimur/:id", editNusaTenggaraTimurMenu);
+router.post("/.netlify/functions/server/nusatenggaratimur", createNusaTenggaraTimurMenu);
+router.get("/.netlify/functions/server/nusatenggaratimur", getNusaTenggaraTimurMenu);
+router.delete("/.netlify/functions/server/nusatenggaratimur/:id", deleteNusaTenggaraTimurMenu);
+router.put("/.netlify/functions/server/nusatenggaratimur/:id", editNusaTenggaraTimurMenu);
 
-router.post("/nusatenggarabarat", createNusaTenggaraBaratMenu);
-router.get("/nusatenggarabarat", getNusaTenggaraBaratMenu);
-router.delete("/nusatenggarabarat/:id", deleteNusaTenggaraBaratMenu);
-router.put("/nusatenggarabarat/:id", editNusaTenggaraBaratMenu);
+router.post("/.netlify/functions/server/nusatenggarabarat", createNusaTenggaraBaratMenu);
+router.get("/.netlify/functions/server/nusatenggarabarat", getNusaTenggaraBaratMenu);
+router.delete("/.netlify/functions/server/nusatenggarabarat/:id", deleteNusaTenggaraBaratMenu);
+router.put("/.netlify/functions/server/nusatenggarabarat/:id", editNusaTenggaraBaratMenu);
 
-router.post("/papua", createPapuaMenu);
-router.get("/papua", getPapuaMenu);
-router.delete("/papua/:id", deletePapuaMenu);
-router.put("/papua/:id", editPapuaMenu);
+router.post("/.netlify/functions/server/papua", createPapuaMenu);
+router.get("/.netlify/functions/server/papua", getPapuaMenu);
+router.delete("/.netlify/functions/server/papua/:id", deletePapuaMenu);
+router.put("/.netlify/functions/server/papua/:id", editPapuaMenu);
 
 // User routes
-router.get("/dashboard", getUsers);
-router.post("/users", Register);
-router.post("/login", Login);
-router.delete("/logout", Logout);
+router.get("/.netlify/functions/server/dashboard", getUsers);
+router.post("/.netlify/functions/server/users", Register);
+router.post("/.netlify/functions/server/login", Login);
+router.delete("/.netlify/functions/server/logout", Logout);
 
 // Serve login and register HTML pages
 router.get("/", (req, res) => {

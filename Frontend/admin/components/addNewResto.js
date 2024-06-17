@@ -102,7 +102,7 @@ class AddNewResto extends HTMLElement {
     };
 
     try {
-      const response = await fetch(`http://localhost:4000/${provinsi}`, {
+      const response = await fetch(`http://localhost:4000/.netlify/functions/server/${provinsi}`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
