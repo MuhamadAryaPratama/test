@@ -28,7 +28,8 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../frontend")));
 app.use(router);
+app.use("/.netlify/functions/server", router); // add this base path in the serverless setup only
 
-app.listen(4000, '0.0.0.0', () => {
+app.listen(4000, "0.0.0.0", () => {
   console.log("Server berhasil di running di port 4000");
 });
